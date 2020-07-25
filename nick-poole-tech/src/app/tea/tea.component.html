@@ -1,0 +1,10 @@
+<h2>My Tea</h2>
+<ul class="teas">
+    <li *ngFor="let tea of teas" 
+        [class.selected] = "tea === selectedTea" 
+        (click)="onSelect(tea)">
+        <span class="badge">{{tea.id}}</span> {{tea.englishName}}
+    </li>
+</ul>
+
+<app-tea-detail [tea]="selectedTea"></app-tea-detail>
