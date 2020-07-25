@@ -1,16 +1,17 @@
 import { NgModule } from '@angular/core';
+
 import { Routes, RouterModule } from '@angular/router';
 
-import { ProjectsComponent } from './projects.component';
+import { GamesComponent } from './games.component';
+import { WildfireComponent } from './wildfire/wildfire.component';
 
 const routes: Routes = [
   //{ path: '', redirectTo: '/home', pathMatch: 'full' },
   { 
-    path: '', component: ProjectsComponent
+    path: '', component: GamesComponent
   },
   { 
-    path: "games", 
-    loadChildren: () => import("./games/games.module").then((m) => m.GamesModule) 
+    path: 'wildfire', component: WildfireComponent 
   }
 ];
 
@@ -18,4 +19,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ProjectsRoutingModule { }
+export class GamesRoutingModule { }
