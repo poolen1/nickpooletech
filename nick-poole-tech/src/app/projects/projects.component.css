@@ -1,0 +1,11 @@
+
+.projects-text {
+  padding: 70px 0;
+  text-align: center;
+}
+  
+a {
+  padding: 0px 10px;
+  word-wrap: normal;
+  display: inline-block;
+}
