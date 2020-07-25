@@ -5,6 +5,9 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { HomeModule } from './home/home.module';
+import { ProjectsModule } from './projects/projects.module';
+
 import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
@@ -15,7 +18,9 @@ import { MessagesComponent } from './messages/messages.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HomeModule,
+    ProjectsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
