@@ -14,9 +14,9 @@ import { ValidatorService } from './services/validator.service';
 
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { FooterComponent } from './shared/footer/footer.component';
-import { LoginComponent } from './shared/login/login.component';
+import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { SignUpComponent } from './shared/login/sign-up/sign-up.component';
+import { SignUpComponent } from './login/sign-up/sign-up.component';
 
 @NgModule({
   declarations: [

@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "d+fBvDUhg0K4x4/gom8/Ue8Iv7ZTGuj5mbuT3mG7MU/nmLfy9IbJfOQbH0ehLUWiB2vr6NF9sMoyLVH5xTGHtg==",
+  "success": true,
+  "projectFilePath": "C:\\Source_Practice\\Workspaces\\nickpooletech\\npt-API-REST\\SeedAPI_REST\\NPT_API_REST.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pooleN\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.19\\microsoft.aspnetcore.jsonpatch.3.1.19.nupkg.sha512",
+    "C:\\Users\\pooleN\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.19\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.19.nupkg.sha512",
+    "C:\\Users\\pooleN\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\pooleN\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\pooleN\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\pooleN\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\pooleN\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\pooleN\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\pooleN\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\pooleN\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\pooleN\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\pooleN\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
+    "C:\\Users\\pooleN\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\pooleN\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
