@@ -7,8 +7,6 @@ import {
 import { UserService } from 'src/app/services/user.service';
 import { ValidatorService } from 'src/app/services/validator.service';
 
-import { User } from '../../../models/user';
-
 @Component({
   selector: 'app-sign-up',
   templateUrl: './sign-up.component.html',
@@ -25,19 +23,10 @@ export class SignUpComponent implements OnInit {
     userPassword: ''
   }
 
-  userName: string = '';
-  userEmail: string = '';
-  userPassword: string = '';
-  passwordConfirmation: string;
-  model: User;
-
   submitted: boolean = false;
 
   constructor(private validatorSvc: ValidatorService,
               private userSvc: UserService) {
-    this.model = new User(this.userName, this.userEmail, this.userPassword);
-    this.passwordConfirmation = '';
-    this.submitted = false;
   }
 
   ngOnInit(): void {  
@@ -77,10 +66,6 @@ export class SignUpComponent implements OnInit {
     let value = this.registerForm.value;
 
     this.success = JSON.stringify(this.user);
-
-    console.log("success: ", this.success);
-    console.log("value: ", value);
-    console.log("user: ", this.user);
 
     this.userSvc.addUser(this.user).subscribe(result => {
       alert(result.toString());

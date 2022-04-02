@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using SeedAPI_REST.Models;
+using NPT_API_REST.Common;
 
 namespace SeedAPI_REST.Controllers
 {
@@ -47,11 +48,15 @@ namespace SeedAPI_REST.Controllers
         [HttpPost]
         public JsonResult Post(User objUser)
         {
+            string salt = SecurityHelper.GenerateSalt(63);
+            string hashedPassword = SecurityHelper.HashPassword(objUser.UserPassword, salt, 63, 63);
+
             string query = @"Insert into dbo.Users values
-                ('" + objUser.UserName + "','" + objUser.UserEmail + "','" + objUser.UserPassword + "')";
+                ('" + objUser.UserName + "','" + objUser.UserEmail + "','" + hashedPassword + "','" + salt + "')";
             DataTable table = new DataTable();
             string sqlDataSource = _configuration.GetConnectionString("UserAppCon");
             SqlDataReader myReader;
+            
             using (SqlConnection myCon = new SqlConnection(sqlDataSource))
             {
                 myCon.Open();

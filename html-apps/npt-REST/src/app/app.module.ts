@@ -9,7 +9,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-import { CheckPasswordDirective } from './helpers/check-passwords.directive';
 import { ValidatorService } from './services/validator.service';
 
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
@@ -25,8 +24,7 @@ import { SignUpComponent } from './login/sign-up/sign-up.component';
     FooterComponent,
     LoginComponent,
     DashboardComponent,
-    SignUpComponent,
-    CheckPasswordDirective
+    SignUpComponent
   ],
   imports: [
     BrowserModule,

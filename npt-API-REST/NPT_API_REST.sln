@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedAPI_REST", "SeedAPI_REST\SeedAPI_REST.csproj", "{92E1AC0C-309D-4766-BD4A-24F07116D89D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NPT_API_REST", "SeedAPI_REST\NPT_API_REST.csproj", "{92E1AC0C-309D-4766-BD4A-24F07116D89D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
